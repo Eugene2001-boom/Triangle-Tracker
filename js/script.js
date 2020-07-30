@@ -6,3 +6,10 @@ function isNumberKey(evt) {
     return false;
   return true;
 }
+
+//Function to fetch entered triangle sides from the HRML form
+
+function getValues() {
+  var val1 = (document.getElementById('sideA').value);
+  var val2 = (document.getElementById('sideB').value);
+  var val3 = (document.getElementById('sideC').value);
