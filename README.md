@@ -5,7 +5,7 @@
 * Clone this repository to a location in your file system. git clone https://github.com/Eugene2001-boom/Triangle-Tracker.git 
 * Open terminal command line then navigate to the root folder of the application. cd Triangle-Tracker
 * Open index.html on your Browser
-* link to live site-https://eugene2001-boom.github.io/triangle-tracker/
+* link to live site-https://eugene2001-boom.github.io/Triangle-Tracker/
 ## Known Bugs
 { If you find a bug (the website couldn't handle the query and or gave undesired results), kindly open an issue here by including your search query and the expected result. }
 ## Technologies Used
