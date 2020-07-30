@@ -31,3 +31,10 @@ function getValues() {
     alert("All sides required");
   } else if (sideA + sideB > sideC && sideA != sideB && sideB != sideC || sideA + sideC > sideB && sideA != sideB && sideB != sideC || sideC + sideB > sideA && sideA != sideB && sideB != sideC) {
     alert("This is a Scalene Triangle");
+  } else if (sideA === sideB && sideB != sideC || sideA === sideC && sideC != sideB || sideB === sideC && sideC != sideA) {
+    console.log('isosceles');
+    alert("This is an Isosceles Triangle")
+  } else {
+    return 0;
+  }
+}
