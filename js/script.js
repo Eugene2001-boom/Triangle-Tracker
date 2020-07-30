@@ -26,14 +26,14 @@ function getValues() {
 
     if (sideA === sideB && sideB === sideC && sideA === sideC) {
       console.log('equilateral');
-      alert("This is an equilateral Triangle");
+      alert(" equilateral Triangle");
     } else if (sideA === sideB && sideB != sideC || sideA === sideC && sideC != sideB || sideB === sideC && sideC != sideA) {
       console.log('isosceles');
-      alert("This is an Isosceles Triangle")
+      alert(" Isosceles Triangle")
     } else if (sideA + sideB > sideC && sideA != sideB && sideB != sideC || sideA + sideC > sideB && sideA != sideB && sideB != sideC || sideC + sideB > sideA && sideA != sideB && sideB != sideC) {
-      alert("This is a Scalene Triangle");
+      alert(" Scalene Triangle");
     } else if ((side1 == null || side1 === "" || side1 === 0) || (side2 == null || side2 === "") || (side3 == null || side3 === "")) {
-      alert("All sides required");
+      alert("All the sides are required");
   } else {
     return 0;
   }
