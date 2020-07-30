@@ -94,6 +94,16 @@ h4 {
 .submit:hover {
   background-color: yellowgreen;
 }
-
+.reset {
+  background-color: green;
+  border-radius: 10%;
+  color: whitesmoke;
+  border-style: inset;
+  height: 45px;
+  width: 75px;
+}
+.reset:hover {
+  background-color: blue;
+}
 
 
