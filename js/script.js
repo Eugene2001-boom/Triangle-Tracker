@@ -23,3 +23,11 @@ function getValues() {
     var sideC = parseInt(val3);
   
     //Conditional loops to check type of triangle based on decision matrix
+
+  if (sideA === sideB && sideB === sideC && sideA === sideC) {
+    console.log('equilateral');
+    alert("This is an equilateral Triangle");
+  } else if ((side1 == null || side1 === "" || side1 === 0) || (side2 == null || side2 === "") || (side3 == null || side3 === "")) {
+    alert("All sides required");
+  } else if (sideA + sideB > sideC && sideA != sideB && sideB != sideC || sideA + sideC > sideB && sideA != sideB && sideB != sideC || sideC + sideB > sideA && sideA != sideB && sideB != sideC) {
+    alert("This is a Scalene Triangle");
