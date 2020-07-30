@@ -42,7 +42,7 @@ h4 {
   float: left;
   margin-left: 50px;
   margin-top: 50px;
-  transform: rotate(45deg);
+  transform: rotate(15deg);
 }
 .triangle1 {
   opacity: 1.0;
@@ -52,17 +52,7 @@ h4 {
   margin-left: 50px;
   margin-top: 50px;
   margin-right: 40px;
-  transform: rotate(270deg);
-}
-.triangle2 {
-  opacity: 0.2;
-  margin-left: 0;
-  margin-bottom: 0;
-  width: 900px;
-  height: 900px;
-  float: right;
-  position: absolute;
-  margin-top: 0;
+  transform: rotate(10deg);
 }
 .sideA {
   padding-left: 14px;
